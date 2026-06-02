@@ -17,10 +17,7 @@
             tapping-term-ms = <125>;
             quick-tap-ms = <100>;
             require-prior-idle-ms = <150>;
-
-            /* flavor = "balanced"; */
-
-            flavor = "hold-while-undecided";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
         
@@ -30,10 +27,7 @@
             tapping-term-ms = <125>;
             quick-tap-ms = <100>;
             require-prior-idle-ms = <150>;
-
-            /* flavor = "balanced"; */
-
-            flavor = "hold-while-undecided";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
         
