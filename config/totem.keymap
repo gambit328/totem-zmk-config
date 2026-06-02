@@ -8,14 +8,6 @@
 #define NAV  2
 #define MOD  3
 #define ADJ  4
-extra5  { status = "reserved"; display-name = "Extra 5"; }
-extra6  { status = "reserved"; display-name = "Extra 6"; }
-extra7  { status = "reserved"; display-name = "Extra 7"; }
-extra8  { status = "reserved"; display-name = "Extra 8"; }
-extra9  { status = "reserved"; display-name = "Extra 9"; }
-extra10 { status = "reserved"; display-name = "Extra 10"; }
-extra11 { status = "reserved"; display-name = "Extra 11"; }
-extra12 { status = "reserved"; display-name = "Extra 12"; }
 
 / {
     behaviors {
@@ -99,7 +91,7 @@ extra12 { status = "reserved"; display-name = "Extra 12"; }
     base_layer {
         bindings = <
                 &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P
-                &hml LGUI A     &hml LALT S     &hml LCTRL D    &hml LSHIFT F    &kp G               &kp H           &hmr RSHFT J    &hmr RCTRL K    &hmr RALT L     &hmr RGUI SEMI
+                &hml LGUI A     &hml LALT S     &hml LCTRL D    &hml LSHFT F    &kp G               &kp H           &hmr RSHFT J    &hmr RCTRL K    &hmr RALT L     &hmr RGUI SEMI
      &kp LBKT   &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
                                          &kp ESC         &lt CODE BSPC       &lt MOD TAB     &lt ADJ ENTER   &lt NAV SPACE   &kp LSHFT
         >;
@@ -141,6 +133,15 @@ extra12 { status = "reserved"; display-name = "Extra 12"; }
                                                                 &trans          &trans              &trans          &trans          &trans          &trans
             >;
         };
+
+        extra5  { status = "reserved"; display-name = "Extra 5"; };
+        extra6  { status = "reserved"; display-name = "Extra 6"; };
+        extra7  { status = "reserved"; display-name = "Extra 7"; };
+        extra8  { status = "reserved"; display-name = "Extra 8"; };
+        extra9  { status = "reserved"; display-name = "Extra 9"; };
+        extra10 { status = "reserved"; display-name = "Extra 10"; };
+        extra11 { status = "reserved"; display-name = "Extra 11"; };
+        extra12 { status = "reserved"; display-name = "Extra 12"; };
     };
 };
 
