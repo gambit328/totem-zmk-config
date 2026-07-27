@@ -125,7 +125,7 @@
         colemak-dh {
             bindings = <
               &kp Q            &kp W            &kp F         &kp P         &kp B        &kp J        &kp L               &kp U         &kp Y             &kp SEMI
-              &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHFT T  &kp G        &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr I RIGHT_ALT  &hmr RIGHT_GUI O
+              &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHFT T  &kp G        &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
 &kp CAPSLOCK  &kp Z            &kp X            &kp C         &kp D         &kp V        &kp K        &kp H               &kp COMMA     &kp PERIOD        &kp SLASH         &lt 8 BACKSPACE
                                                 &lt 4 ESC     &lt 2 SPACE   &lt 3 TAB    &lt 6 ENTER  &lt 5 SPACE         &lt 7 DEL
             >;
@@ -136,16 +136,16 @@
         &kp NUMBER_1            &kp NUMBER_2            &kp NUMBER_3         &kp NUMBER_4              &kp NUMBER_5    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSPACE
         &hml LEFT_GUI NUMBER_6  &hml LEFT_ALT NUMBER_7  &hml LCTRL NUMBER_8  &hml LEFT_SHIFT NUMBER_9  &kp NUMBER_0    &kp LEFT_ARROW        &kp DOWN_ARROW    &kp UP_ARROW           &kp RIGHT          &kp SQT
 &trans  &kp K_UNDO              &kp K_CUT               &kp K_COPY           &kp K_PASTE               &trans          &kp HOME              &kp MINUS         &kp EQUAL              &kp END            &kp CAPSLOCK   &kp INS
-                                                        &trans               &trans                    &trans          &kp ENTER             &kp BACKSPACE     &kp DELETE
+                                                        &trans               &trans                    &trans          &kp ENTER             &kp SPACE         &kp DELETE
             >;
         };
 
         mod_layer {
             bindings = <
-        &kp F1            &kp F2            &kp F3         &kp F4          &kp F5     &trans     &trans         &trans      &trans  &trans
-        &hml LEFT_GUI F6  &hml LEFT_ALT F7  &hml LCTRL F8  &hml LSHIFT F9  &kp F10    &trans     &trans         &trans      &trans  &trans
-&trans  &kp F11           &kp F12           &trans         &trans          &trans     &trans     &trans         &trans      &trans  &trans  &trans
-                                            &trans         &trans          &trans     &kp ENTER  &kp BACKSPACE  &kp DELETE
+        &kp F1            &kp F2            &kp F3         &kp F4          &kp F5     &trans     &trans     &trans      &trans  &trans
+        &hml LEFT_GUI F6  &hml LEFT_ALT F7  &hml LCTRL F8  &hml LSHIFT F9  &kp F10    &trans     &trans     &trans      &trans  &trans
+&trans  &kp F11           &kp F12           &trans         &trans          &trans     &trans     &trans     &trans      &trans  &trans  &trans
+                                            &trans         &trans          &trans     &kp ENTER  &kp SPACE  &kp DELETE
             >;
         };
 
@@ -160,10 +160,10 @@
 
         layer_numbers {
             bindings = <
-        &kp TILDE      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans          &trans  &trans           &trans     &trans         &trans
-        &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
-&trans  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT         &trans  &trans           &trans     &trans         &trans         &trans
-                                     &trans        &kp SPACE     &kp MINUS       &trans  &trans           &trans
+        &kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans           &trans  &trans           &trans     &trans         &trans
+        &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0     &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
+&trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH    &trans  &trans           &trans     &trans         &trans         &trans
+                                 &trans        &kp SPACE     &kp DOT          &trans  &trans           &trans
             >;
         };
 
