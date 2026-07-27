@@ -67,10 +67,10 @@
             key-positions = <22 23>;
         };
 
-        caps {
-            bindings = <&kp CAPS>;
-            key-positions = <23 24>;
-        };
+        /* caps { */
+        /*     bindings = <&kp CAPS>; */
+        /*     key-positions = <23 24>; */
+        /* }; */
 
         left-bracket {
             bindings = <&kp LEFT_BRACKET>;
