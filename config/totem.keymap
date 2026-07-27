@@ -204,6 +204,11 @@
     };
 };
 
+&lt {
+    tapping-term-ms = <120>;
+    flavor = "hold-preferred";
+};
+
 &sk {
     release-after-ms = <2000>;
     quick-release;
