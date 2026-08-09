@@ -159,55 +159,55 @@
 
         nav_layer {
             bindings = <
-        &kp ESC                                &kp NUMBER_1                           &kp NUMBER_2                     &kp NUMBER_3                               &kp NUMBER_4    &kp HOME        &kp PAGE_DOWN     &kp PAGE_UP            &kp END            &kp BACKSPACE
-        &sticky_tap_kp_hold LEFT_GUI LEFT_GUI  &sticky_tap_kp_hold LEFT_ALT LEFT_ALT  &sticky_tap_kp_hold LCTRL LCTRL  &sticky_tap_kp_hold LEFT_SHIFT LEFT_SHIFT  &kp NUMBER_0    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW           &kp RIGHT          &kp ENTER
-&trans  &kp NUMBER_5                           &kp NUMBER_6                           &kp NUMBER_7                     &kp NUMBER_8                               &kp NUMBER_9    &kp LPAR        &kp LEFT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp CAPSLOCK   &kp INS
-                                                                                      &trans                           &trans                                     &trans          &kp TAB         &kp SPACE         &kp DELETE
+        &kp ESC       &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4    &kp HOME        &kp PAGE_DOWN     &kp PAGE_UP            &kp END            &kp BACKSPACE
+        &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp NUMBER_0    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW           &kp RIGHT          &kp ENTER
+&trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8    &kp NUMBER_9    &kp LPAR        &kp LEFT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp CAPSLOCK   &kp INS
+                                    &trans            &trans          &trans          &kp TAB         &kp SPACE         &kp DELETE
             >;
         };
 
         mod_layer {
             bindings = <
-        &kp F1                                 &kp F2                                 &kp F3                           &kp F4                                 &kp F5     &trans     &trans     &trans      &trans  &trans
-        &sticky_tap_kp_hold LEFT_GUI LEFT_GUI  &sticky_tap_kp_hold LEFT_ALT LEFT_ALT  &sticky_tap_kp_hold LCTRL LCTRL  &sticky_tap_kp_hold LSHIFT LEFT_SHIFT  &kp F10    &trans     &trans     &trans      &trans  &trans
-&trans  &kp F6                                 &kp F7                                 &kp F8                           &kp F9                                 &trans     &trans     &trans     &trans      &trans  &trans  &trans
-                                                                                      &trans                           &trans                                 &trans     &kp ENTER  &kp SPACE  &kp DELETE
+        &kp F1        &kp F2        &kp F3            &kp F4          &kp F5     &trans     &trans     &trans      &trans  &trans
+        &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp F10    &trans     &trans     &trans      &trans  &trans
+&trans  &kp F6        &kp F7        &kp F8            &kp F9          &trans     &trans     &trans     &trans      &trans  &trans  &trans
+                                    &trans            &trans          &trans     &kp ENTER  &kp SPACE  &kp DELETE
             >;
         };
 
         adj_layer {
             bindings = <
-        &trans                                 &trans                                 &trans                           &trans                                     &trans    &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans        &bt BT_CLR_ALL
-        &sticky_tap_kp_hold LEFT_GUI LEFT_GUI  &sticky_tap_kp_hold LEFT_ALT LEFT_ALT  &sticky_tap_kp_hold LCTRL LCTRL  &sticky_tap_kp_hold LEFT_SHIFT LEFT_SHIFT  &trans    &kp C_PREV    &kp C_PLAY         &kp C_PAUSE      &kp C_NEXT    &trans
-&trans  &trans                                 &trans                                 &trans                           &trans                                     &trans    &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_CLR      &trans
-                                                                                      &trans                           &trans                                     &trans    &trans        &trans             &trans
+        &trans        &trans        &trans            &trans          &trans    &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans        &bt BT_CLR_ALL
+        &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &trans    &kp C_PREV    &kp C_PLAY         &kp C_PAUSE      &kp C_NEXT    &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_CLR      &trans
+                                    &trans            &trans          &trans    &trans        &trans             &trans
             >;
         };
 
         layer_numbers {
             bindings = <
-        &kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans           &kp RS(NUMBER_5)  &trans                                       &trans                           &trans                                   &trans
-        &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT          &kp RS(NUMBER_6)  &sticky_tap_kp_hold RIGHT_SHIFT RIGHT_SHIFT  &sticky_tap_kp_hold RCTRL RCTRL  &sticky_tap_kp_hold RIGHT_ALT RIGHT_ALT  &sticky_tap_kp_hold RIGHT_GUI RIGHT_GUI
-&trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH    &trans            &trans                                       &trans                           &trans                                   &trans                                   &trans
-                                 &trans        &kp SPACE     &kp NUMBER_0     &trans            &trans                                       &trans
+        &kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans           &kp RS(NUMBER_5)  &trans           &trans             &trans         &trans
+        &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT          &kp RS(NUMBER_6)  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_GUI
+&trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH    &trans            &trans           &trans             &trans         &trans         &trans
+                                 &trans        &kp SPACE     &kp NUMBER_0     &trans            &trans           &trans
             >;
         };
 
         layer_symbols {
             bindings = <
-        &kp TILDE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans                   &trans  &trans                                       &trans                           &trans                                   &trans
-        &kp PLUS   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp RIGHT_PARENTHESIS    &trans  &sticky_tap_kp_hold RIGHT_SHIFT RIGHT_SHIFT  &sticky_tap_kp_hold RCTRL RCTRL  &sticky_tap_kp_hold RIGHT_ALT RIGHT_ALT  &sticky_tap_kp_hold RIGHT_GUI RIGHT_GUI
-&trans  &kp PIPE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp COMMA                &trans  &trans                                       &trans                           &trans                                   &trans                                   &trans
-                                    &trans        &kp SPACE             &kp UNDER                &trans  &trans                                       &trans
+        &kp TILDE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans                   &trans  &trans           &trans             &trans         &trans
+        &kp PLUS   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp RIGHT_PARENTHESIS    &trans  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_GUI
+&trans  &kp PIPE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp COMMA                &trans  &trans           &trans             &trans         &trans         &trans
+                                    &trans        &kp SPACE             &kp UNDER                &trans  &trans           &trans
             >;
         };
 
         layer_f {
             bindings = <
-                &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &trans  &trans                                  &trans                           &trans                                   &trans
-                &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &trans  &sticky_tap_kp_hold RSHIFT RIGHT_SHIFT  &sticky_tap_kp_hold RCTRL RCTRL  &sticky_tap_kp_hold RIGHT_ALT RIGHT_ALT  &sticky_tap_kp_hold RIGHT_GUI RIGHT_GUI
-&studio_unlock  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans                                  &trans                           &trans                                   &trans                                   &trans
-                                 &trans  &trans  &trans             &trans  &trans                                  &trans
+                &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &trans  &trans           &trans             &trans         &trans
+                &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &trans  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_GUI
+&studio_unlock  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans           &trans             &trans         &trans         &trans
+                                 &trans  &trans  &trans             &trans  &trans           &trans
             >;
         };
 
